@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it_IT">
 
 <head>
 
+  <!-- Facebook Open Graph MArkup -->
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Eventi GDR - Calendario" />
+  <meta property="og:description" content="Cerca un evento, aggiungilo al tuo Calendario, non perdertelo!" />
+  <meta property="og:image" content="media/facebook-index.jpg" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:site_name" content="Eventi GDR" />
+
+  <!-- Twitter Card -->
+
+
+  <!-- Google Tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Eventi GDR - Calendario</title>
+  <meta name="description" content="Cerca un evento, aggiungilo al tuo Calendario, non perdertelo!">
 
   <link rel="shortcut icon" type="image/png" href="media/favicon.png"/>
-
-  <title>Eventi GDR - Calendario Eventi</title>
-
-</head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top mb-3">
     <div class="container">
       <a class="navbar-brand" href="Index.html"><img src="media/navbar-brand.png" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +43,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Inserisci-Evento.html">Inserisci Evento</a>
+            <a class="nav-link" href="Segnala-Evento.html">Inserisci Evento</a>
           </li>
         </ul>
       </div>
@@ -46,7 +55,7 @@
     <div class="container">
   	<div class="row">
       <div class="col-lg-3">
-        <div class="card bg-light mb-3">
+        <div class="card bg-light border-dark mb-3">
           <div class="card-body">
             <h4 class="card-title">Cosa trovi nel Calendario?</h4>
             <p class="card-text">Trovi tutti gli eventi pubblici legati al Gioco di Ruolo.
@@ -54,13 +63,14 @@
                                  base alle segnalazioni degli utenti.</p>
           </div>
         </div>
-        <div class="card bg-light mb-3">
+        <div class="card bg-dark text-white mb-3">
           <div class="card-body">
             <h4 class="card-title">Come faccio a segnalare un Evento?</h4>
-            <p class="card-text">Puoi segnalare un evento usando <a href="Inserisci-Evento.html">questo form</a>.</p>
+            <p class="card-text">Ti basta compilare un form con le informazioni minime per inserire l'evento sul calendario.</p>
+            <span class="center"><button type="button" class="btn btn-secondary" onclick="window.location.href = 'Segnala-Evento.html';">Segnala Evento</button></span>
           </div>
         </div>
-        <div class="card bg-light mb-3">
+        <div class="card bg-light border-dark mb-3">
           <div class="card-body">
             <h4 class="card-title">Come faccio a modificare un Evento?</h4>
             <p class="card-text">Se hai maggiori informazioni su un evento e vuoi suggerire modifiche,
@@ -70,7 +80,7 @@
         </div>
         </div>
         <div class="col-lg-9">
-          <div class="card bg-light mb-3">
+          <div class="card bg-dark text-white mb-3">
             <div class="card-body">
               <h4 class="card-title text-center">Calendario degli Eventi Pubblici di Gioco di Ruolo</h4>
   		           <div class="responsiveCal">
@@ -81,11 +91,11 @@
       </div>
 
   <!-- Navbar Footer -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom mt-3">
     <div class="container">
         <ul class="navbar-nav ml-auto">
 		  <li class="nav-item">
-            <a class="nav-link" href="Privacy.html">Privacy</a>
+            <a class="nav-link" href="Privacy.html" rel="nofollow">Privacy</a>
           </li>
         </ul>
       </div>
